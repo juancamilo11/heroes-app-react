@@ -1,0 +1,43 @@
+.form-control {
+  background-color: rgb(236, 233, 233);
+  padding-left: 30px;
+  padding-right: 30px;
+  text-indent: 0;
+  font-size: 1.2rem;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+.form-text {
+  color: #ccc;
+}
+
+.form-control {
+  border: 1px solid blue;
+}
+
+.form-container {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+.login-form {
+  padding: 30px 20px 0px 20px;
+}
+
+.login-input,
+.btn-ingresar {
+  height: 50px;
+}
+
+.btn-ingresar {
+  width: 30%;
+  margin: 20px 35%;
+}
