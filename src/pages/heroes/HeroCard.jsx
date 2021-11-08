@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const HeroCard = ({
   id,
@@ -9,10 +9,7 @@ const HeroCard = ({
   characters,
 }) => {
   return (
-    <div
-      className="card ms-3 animate__animated animate__fadeIn"
-      style={{ maxWidth: 540 }}
-    >
+    <div className="card ms-3 animate__animated animate__fadeIn">
       <div className="row no-gutters">
         <div className="col-md-4">
           <img
@@ -34,7 +31,7 @@ const HeroCard = ({
               <small className="text-muted"> {first_appearance} </small>
             </p>
 
-            <NavLink to={`./hero/${id}`}>Más...</NavLink>
+            <Link to={`./hero/${id}`}>Más...</Link>
           </div>
         </div>
       </div>
